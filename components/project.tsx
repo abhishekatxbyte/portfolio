@@ -37,7 +37,7 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <div className="bg-gray-800 opacity-50	 w-[2rem] flex items-center mt-2	mb-2 justify-center	h-[2rem] border-white	rounded-full	 border-2"> <a target="_blank" href={link}>{icon}</a></div>
+          <div className="bg-gray-800 text-gray-200	 opacity-50	dark:bg-white/10 w-[2rem] flex items-center mt-2	mb-2 justify-center	h-[2rem] border-white	rounded-full	 border-2"> <a target="_blank" href={link}>{icon}</a></div>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag: any, index: any) => (
               <li
